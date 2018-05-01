@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEE0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/personinfo"/>
+
+                <Button
+                    android:id="@+id/myresume"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:text="我的简历"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEE0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/resumerecord"/>
+
+                <Button
+                    android:id="@+id/myrecord"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:text="投递记录"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEE0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/myresume"/>
+
+                <Button
+                    android:id="@+id/postwill"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:text="发布求职"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EEEEE0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+
+
+
+
+</LinearLayout>

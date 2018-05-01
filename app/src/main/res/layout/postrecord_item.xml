@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_marginLeft="16dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="毕业院校："
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:id="@+id/school1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="居住地："
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:id="@+id/local2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="手机："
+            android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/phone1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

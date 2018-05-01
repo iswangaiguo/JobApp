@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/login_header"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#008cc9">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="16dp"
+            android:text="login"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:singleLine="true"
+            android:hint="请输入用户名" />
+        />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_username"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:hint="请输入密码" />
+        />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroupId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/personal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人"/>
+        <RadioButton
+            android:id="@+id/bussiness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="企业"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="注册"
+            android:background="#d4d4d4" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#d4d4d4"
+            android:layout_marginLeft="10dp"
+            android:text="登陆" />
+
+    </LinearLayout>
+</LinearLayout>
